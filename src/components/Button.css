@@ -1,0 +1,18 @@
+.button {
+    background: red;
+    border: solid 2px red;
+    border-radius: 5px;
+    color: #171717;
+    font-weight: bold;
+    outline: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 400px) {
+    .button {
+        transform: scale(0.8);
+    }
+}

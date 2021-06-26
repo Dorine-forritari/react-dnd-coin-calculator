@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+#display {
+    background: #171717;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.currencies {
+    margin: 5px;
+    font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#pouch {
+    background: #171717;
+    margin: 5px;
+    padding: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+    background: #171717;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    padding: 25px 0px 0px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#current__amount {
+    color: red;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#change__amount {
+    color: red;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.amount input {
+    display: block;
+    margin: 1px;
+    border: 1px solid red;
+    outline: none;
+    background-color: #f4f4f4;
+}
+
+.amount input:focus {
+    border: 3px solid red;
+}
+
+.new__amount input {
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+    outline: none;
+    background-color: #f4f4f4;
+}
+
+.new__amount input:focus {
+    border: 3px solid red;
+}
+
+.link {
+    color: red;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.link:hover {
+    color: white;
+}
+
+@media (max-width: 620px) {
+    .header {
+        font-size: 2rem;
+    }
+    .currencies {
+        font-size: 0.9rem;
+    }
+    #current__amount {
+        font-size: 0.9rem;
+    }
+    #change__amount {
+        font-size: 0.9rem;
+    }
+    #display {
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        font-size: 1.5rem;
+    }
+    .currencies {
+        font-size: 0.8rem;
+    }
+    #current__amount {
+        font-size: 0.8rem;
+    }
+    #change__amount {
+        font-size: 0.8rem;
+    }
+    #display {
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .link {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .header {
+        font-size: 1.2rem;
+    }
+    .currencies {
+        font-size: 0.6rem;
+    }
+    #current__amount {
+        font-size: 0.6rem;
+    }
+    #change__amount {
+        font-size: 0.6rem;
+    }
+    #display {
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .link {
+        font-size: 0.6rem;
+    }
 }
