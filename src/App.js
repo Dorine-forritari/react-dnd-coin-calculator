@@ -448,7 +448,8 @@ class App extends React.Component {
                   <input type="number" min="0" max="10000" value={this.state.currentCopper} onChange={this.changeCopper} />
                 </div>
               </div>
-              <div className='col-2'>
+              <div className='col-1'></div>
+              <div className='col-1'>
                 <div className='new__amount'>
                   <input type="number" min="0" max="10000" value={this.state.newCopper} onChange={this.changeNewCopper} />
                 </div>
@@ -459,6 +460,7 @@ class App extends React.Component {
                 <AddButton />
                 </form>
               </div>
+              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.spendCopper} >
                 <SubtractButton />
