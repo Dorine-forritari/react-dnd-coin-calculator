@@ -82,6 +82,12 @@ body {
     padding-right: 0px;
 }
 
+.column__newamount {
+    padding-left: 25px;
+    padding-right: 5px;
+    border-left: 1px solid red;
+}
+
 .link {
     color: red;
     text-decoration: underline;
