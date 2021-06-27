@@ -443,24 +443,21 @@ class App extends React.Component {
           <div className='currencies'>
             <div className='row'>
               <div className='col-4'><Coin type='Copper' color='#b87333' /></div>
-              <div className='col-2'>
+              <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentCopper} onChange={this.changeCopper} />
                 </div>
               </div>
-              <div className='col-1'></div>
-              <div className='col-1'>
+              <div className='col-2'>
                 <div className='new__amount'>
                   <input type="number" min="0" max="10000" value={this.state.newCopper} onChange={this.changeNewCopper} />
                 </div>
               </div>
-              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.addCopper} >
                 <AddButton />
                 </form>
               </div>
-              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.spendCopper} >
                 <SubtractButton />
@@ -469,7 +466,7 @@ class App extends React.Component {
             </div>
             <div className='row'>
               <div className='col-4'><Coin type='Silver' color='silver' /></div>
-              <div className='col-2'>
+              <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentSilver} onChange={this.changeSilver} />
                 </div>
@@ -479,7 +476,6 @@ class App extends React.Component {
                   <input type="number" min="0" max="10000" value={this.state.newSilver} onChange={this.changeNewSilver} />
                 </div>
               </div>
-              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.addSilver} >
                 <AddButton />
@@ -493,7 +489,7 @@ class App extends React.Component {
             </div>
             <div className='row'>
               <div className='col-4'><Coin type='Electrum' color='#ffffbf' /></div>
-              <div className='col-2'>
+              <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentElectrum} onChange={this.changeElectrum} />
                 </div>
@@ -503,7 +499,6 @@ class App extends React.Component {
                   <input type="number" min="0" max="10000" value={this.state.newElectrum} onChange={this.changeNewElectrum} />
                 </div>
               </div>
-              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.addElectrum} >
                 <AddButton />
@@ -517,7 +512,7 @@ class App extends React.Component {
             </div>
             <div className='row'>
               <div className='col-4'><Coin type='Gold' color='gold' /></div>
-              <div className='col-2'>
+              <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentGold} onChange={this.changeGold} />
                 </div>
@@ -527,7 +522,6 @@ class App extends React.Component {
                   <input type="number" min="0" max="10000" value={this.state.newGold} onChange={this.changeNewGold} />
                 </div>
               </div>
-              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.addGold} >
                 <AddButton />
@@ -541,7 +535,7 @@ class App extends React.Component {
             </div>
             <div className='row'>
               <div className='col-4'><Coin type='Platinum' color='#e5e4e2'/></div>
-              <div className='col-2'>
+              <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentPlatinum} onChange={this.changePlatinum} />
                 </div>
@@ -551,7 +545,6 @@ class App extends React.Component {
                   <input type="number" min="0" max="10000" value={this.state.newPlatinum} onChange={this.changeNewPlatinum} />
                 </div>
               </div>
-              <div className='col-1'></div>
               <div className='col-1'>
                 <form onSubmit={this.addPlatinum} >
                 <AddButton />
