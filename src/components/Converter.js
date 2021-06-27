@@ -119,54 +119,54 @@ class Converter extends React.Component {
         <div className='container'>
           <div className='currencies'>
           <div className='row'>
-              <div className='col-3'></div>
+              <div className='col-2'></div>
               <div className='col-4'><Coin type='Copper' color='#b87333' /></div>
               <div className='col-4'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.copper} onChange={this.changeCopper} />
                 </div>
               </div>
-              <div className='col-1'></div>
+              <div className='col-2'></div>
             </div>
             <div className='row'>
-              <div className='col-3'></div>
+              <div className='col-2'></div>
               <div className='col-4'><Coin type='Silver' color='silver' /></div>
               <div className='col-4'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.silver} onChange={this.changeSilver} />
                 </div>
               </div>
-              <div className='col-1'></div>
+              <div className='col-2'></div>
             </div>
             <div className='row'>
-              <div className='col-3'></div>
+              <div className='col-2'></div>
               <div className='col-4'><Coin type='Electrum' color='#ffffbf' /></div>
               <div className='col-4'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.electrum} onChange={this.changeElectrum} />
                 </div>
               </div>
-              <div className='col-1'></div>
+              <div className='col-2'></div>
             </div>
             <div className='row'>
-              <div className='col-3'></div>
+              <div className='col-2'></div>
               <div className='col-4'><Coin type='Gold' color='gold' /></div>
               <div className='col-4'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.gold} onChange={this.changeGold} />
                 </div>
               </div>
-              <div className='col-1'></div>
+              <div className='col-2'></div>
             </div>
             <div className='row'>
-              <div className='col-3'></div>
+              <div className='col-2'></div>
               <div className='col-4'><Coin type='Platinum' color='#e5e4e2'/></div>
               <div className='col-4'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.platinum} onChange={this.changePlatinum} />
                 </div>
               </div>
-              <div className='col-1'></div>
+              <div className='col-2'></div>
             </div>
             </div>
         </div>
