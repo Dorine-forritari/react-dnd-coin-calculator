@@ -427,7 +427,7 @@ class App extends React.Component {
 
         <Route path='/' exact render={(props) => (
         <>
-        <div className='header'>
+        <div id='header__calculator'>
           <p>D&D Coin Calculator</p>
         </div>
         <div id='pouch'>
@@ -442,7 +442,7 @@ class App extends React.Component {
           </div>
           <div className='currencies'>
             <div className='row'>
-              <div className='col-3'><Coin type='Copper' color='#b87333' /></div>
+              <div className='col-3 left__column'><Coin type='Copper' color='#b87333' /></div>
               <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentCopper} onChange={this.changeCopper} />
@@ -465,7 +465,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className='row'>
-              <div className='col-3'><Coin type='Silver' color='silver' /></div>
+              <div className='col-3 left__column'><Coin type='Silver' color='silver' /></div>
               <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentSilver} onChange={this.changeSilver} />
@@ -488,7 +488,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className='row'>
-              <div className='col-3'><Coin type='Electrum' color='#ffffbf' /></div>
+              <div className='col-3 left__column'><Coin type='Electrum' color='#ffffbf' /></div>
               <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentElectrum} onChange={this.changeElectrum} />
@@ -511,7 +511,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className='row'>
-              <div className='col-3'><Coin type='Gold' color='gold' /></div>
+              <div className='col-3 left__column'><Coin type='Gold' color='gold' /></div>
               <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentGold} onChange={this.changeGold} />
@@ -534,7 +534,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className='row'>
-              <div className='col-3'><Coin type='Platinum' color='#e5e4e2'/></div>
+              <div className='col-3 left__column'><Coin type='Platinum' color='#e5e4e2'/></div>
               <div className='col-3'>
                 <div className='amount'>
                   <input type="number" min="0" max="10000" value={this.state.currentPlatinum} onChange={this.changePlatinum} />

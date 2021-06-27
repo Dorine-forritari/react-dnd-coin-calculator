@@ -113,7 +113,7 @@ class Converter extends React.Component {
     render() {
     return(
         <div>
-        <div className='header'>
+        <div id='header__converter'>
           <p>D&D Coin Converter</p>
         </div>
         <div className='container'>
