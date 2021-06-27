@@ -34,7 +34,7 @@ body {
 }
 
 #header__converter p {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 #current__amount {
@@ -78,7 +78,7 @@ body {
 }
 
 .left__column {
-    padding-left: 5px;
+    padding-left: 0px;
 }
 
 .link {
@@ -94,16 +94,13 @@ body {
 }
 
 @media (max-width: 620px) {
-    .header {
+    .header__calculator, .header__converter {
         font-size: 2rem;
     }
     .currencies {
         font-size: 0.9rem;
     }
-    #current__amount {
-        font-size: 0.9rem;
-    }
-    #change__amount {
+    #current__amount, #change__amount {
         font-size: 0.9rem;
     }
     #display {
@@ -113,16 +110,13 @@ body {
 }
 
 @media (max-width: 400px) {
-    .header {
+    .header__calculator, .header__converter {
         font-size: 1.5rem;
     }
     .currencies {
         font-size: 0.8rem;
     }
-    #current__amount {
-        font-size: 0.8rem;
-    }
-    #change__amount {
+    #current__amount, #change__amount {
         font-size: 0.8rem;
     }
     #display {
@@ -135,16 +129,13 @@ body {
 }
 
 @media (max-width: 330px) {
-    .header {
+    .header__calculator, .header__converter {
         font-size: 1.2rem;
     }
     .currencies {
         font-size: 0.6rem;
     }
-    #current__amount {
-        font-size: 0.6rem;
-    }
-    #change__amount {
+    #current__amount, #change__amount {
         font-size: 0.6rem;
     }
     #display {
