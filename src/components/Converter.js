@@ -171,7 +171,6 @@ class Converter extends React.Component {
             </div>
         </div>
         <Link to='/' className='link'>D&D Coin Calculator</Link>
-        <Link to='/dorinevanbelzen' className='external__link'>Coded by Dorine van Belzen</Link>
         </div>
     );
     }
