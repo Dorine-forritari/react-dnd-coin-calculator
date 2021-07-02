@@ -564,7 +564,7 @@ class App extends React.Component {
         )} />
         <Route path='/converter' component={Converter} />
         <Route path='/dorinevanbelzen' component={() => { 
-     window.location.href = 'https://dorinevanbelzen.com'; 
+     window.location.replace('https://dorinevanbelzen.com'); 
      return null;}}/>
       </div>
     </div>
