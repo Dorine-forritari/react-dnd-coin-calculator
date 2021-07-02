@@ -8,7 +8,6 @@ import Coin from './components/Coin';
 import AddButton from './components/AddButton';
 import SubtractButton from './components/SubtractButton';
 import Converter from './components/Converter';
-import Credit from './components/Credit';
 
 class App extends React.Component {
   constructor(props) {
@@ -434,10 +433,10 @@ class App extends React.Component {
           <div className='container'>
           <div className='row justify-content-between'>
             <div className='col-6'>
-              <p id='current__amount'>Coins in pouch</p>
+              <p id='current__amount'>Insert current amount<br/>of coins here:</p>
             </div>
             <div className='col-6'>
-              <p id='change__amount'>Add / subtract</p>
+              <p id='change__amount'>Insert amount to add<br/>or subtract here:</p>
             </div>
           </div>
           <div className='currencies'>
@@ -560,10 +559,13 @@ class App extends React.Component {
           </div>
         </div>
         <Link to='/converter' className='link'>D&D Coin Converter</Link>
+        <Link to='/dorinevanbelzen' className='external__link'>Coded by Dorine van Belzen</Link>
         </>
         )} />
         <Route path='/converter' component={Converter} />
-        <Credit />
+        <Route path='/dorinevanbelzen' component={() => { 
+     window.location.href = 'https://dorinevanbelzen.com'; 
+     return null;}}/>
       </div>
     </div>
     </Router>

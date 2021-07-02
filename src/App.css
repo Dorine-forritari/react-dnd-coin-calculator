@@ -99,6 +99,19 @@ body {
     color: white;
 }
 
+.external__link {
+    font-size: 0.6rem;
+    color: red;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.external__link:hover {
+    color: white;
+}
+
 @media (max-width: 620px) {
     #header__calculator {
         font-size: 2rem;
